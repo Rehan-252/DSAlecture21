@@ -26,11 +26,12 @@ public class Pascalsarry {
     }
     
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
         while (true) {
+            Scanner in = new Scanner(System.in);
             System.out.println("ENTER YOUR NUMBER ");
             int num = in.nextInt();
             pascal(num);
+            in.close();
         }
         
     }
